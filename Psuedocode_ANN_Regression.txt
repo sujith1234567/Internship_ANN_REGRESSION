@@ -1,3 +1,23 @@
+Problem statement: Given a dataset of car features and prices, build an ANN regression model that can accurately predict the sale price of a car based on its age, mileage, engine specifications, paint color, transmission type, number of doors, and weight. The model should be trained on a subset of the data and evaluated on a held-out test set, using appropriate performance metrics such as mean squared error or R-squared. The goal is to build a model that can generalize well to new, unseen cars and provide accurate price estimates for them.
+ 
+The CarPricesData dataset appears to contain information about cars and their prices, with the following independent (input) features:
+Age: the age of the car in months.
+KM: the number of kilometers the car has been driven.
+FuelType: the type of fuel used by the car (e.g. petrol, diesel, CNG).
+HP: the horsepower of the car's engine.
+MetColor: whether the car has a metallic paint color or not (binary feature).
+Automatic: whether the car has an automatic transmission or not (binary feature).
+CC: the size of the car's engine in cubic centimeters.
+Doors: the number of doors on the car.
+Weight: the weight of the car in kilograms.
+
+The dependent (output) feature in this dataset is Price, which presumably represents the sale price or estimated value of each car in the dataset.
+Overall, this dataset could be used to train a ANN regression model that can predict the price of a car based on its age, mileage, engine specifications, paint color, transmission type, number of doors, and weight.
+
+The “TARGET variable in this dataset is the “PRICE” variable on which will be predicted by the ANN regression.
+The rest of the variables are used for training the models.
+
+
 
 ## importing necessary libraries 
 import pandas as pd 
